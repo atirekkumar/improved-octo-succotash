@@ -44,7 +44,7 @@ This repository is using a monorepo strategy which lets us have one source of tr
 
 | Package                                                                                                                       | Version                                                                                                                                                         |
 | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [@improved-octo-succotash/plugin-chart-composed](https://github.com/nielsen-oss/improved-octo-succotash/tree/master/plugins/plugin-chart-composed)                     | [![Version](https://img.shields.io/npm/v/@improved-octo-succotash/plugin-chart-composed?style=flat-square)](https://www.npmjs.com/package/@improved-octo-succotash/plugin-chart-composed)                             |
+| [@improved-octo-succotash/plugin-chart-composed](https://github.com/atirekkumar/improved-octo-succotash/tree/master/plugins/plugin-chart-composed)                     | [![Version](https://img.shields.io/npm/v/@improved-octo-succotash/plugin-chart-composed?style=flat-square)](https://www.npmjs.com/package/@improved-octo-succotash/plugin-chart-composed)                             |
 
 ### Additional docs:
 
