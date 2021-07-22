@@ -141,7 +141,7 @@ module.exports = {
         'react/prop-types': 0,
         'react/require-default-props': 0,
         'react/static-property-placement': 0, // re-enable up for discussion
-        'prettier/prettier': 'error',
+        'prettier/prettier': 0,
       },
       settings: {
         'import/resolver': {
@@ -242,6 +242,6 @@ module.exports = {
     'react/prop-types': 0,
     'react/require-default-props': 0,
     'react/static-property-placement': 0, // disabled temporarily
-    'prettier/prettier': 'error',
+    'prettier/prettier': 0,
   },
 };
