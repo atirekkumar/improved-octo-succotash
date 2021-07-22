@@ -2,6 +2,7 @@
   "name": "@improved-octo-succotash/plugin-chart-hello-world",
   "version": "1.0.1",
   "description": "Superset Chart - Hello World",
+  "pluginName": "HelloWorldChartPlugin",
   "sideEffects": false,
   "main": "lib/index.js",
   "module": "esm/index.js",
