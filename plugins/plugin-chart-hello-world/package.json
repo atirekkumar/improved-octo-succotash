@@ -1,6 +1,6 @@
 {
   "name": "@superset-ui/plugin-chart-hello-world",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Superset Chart - Hello World",
   "sideEffects": false,
   "main": "lib/index.js",
