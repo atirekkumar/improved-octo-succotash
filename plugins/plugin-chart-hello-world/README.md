@@ -1,4 +1,4 @@
-## @superset-ui/plugin-chart-hello-world
+## @improved-octo-succotash/plugin-chart-hello-world
 
 
 
@@ -9,7 +9,7 @@ This plugin provides Hello World for Superset.
 Configure `key`, which can be any `string`, and register the plugin. This `key` will be used to lookup this chart throughout the app.
 
 ```js
-import HelloWorldChartPlugin from '@superset-ui/plugin-chart-hello-world';
+import HelloWorldChartPlugin from '@improved-octo-succotash/plugin-chart-hello-world';
 
 new HelloWorldChartPlugin()
   .configure({ key: 'hello-world' })

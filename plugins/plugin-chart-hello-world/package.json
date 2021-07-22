@@ -1,6 +1,6 @@
 {
-  "name": "@superset-ui/plugin-chart-hello-world",
-  "version": "0.0.2",
+  "name": "@improved-octo-succotash/plugin-chart-hello-world",
+  "version": "1.0.0",
   "description": "Superset Chart - Hello World",
   "sideEffects": false,
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache-superset/superset-ui.git"
+    "url": "git+https://github.com/atirekkumar/improved-octo-succotash.git"
   },
   "keywords": [
     "superset"
@@ -19,9 +19,9 @@
   "author": "Superset",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui/issues"
+    "url": "https://github.com/atirekkumar/improved-octo-succotash/issues"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "homepage": "https://github.com/atirekkumar/improved-octo-succotash#readme",
   "publishConfig": {
     "access": "public"
   },

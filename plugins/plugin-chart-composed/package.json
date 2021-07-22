@@ -27,7 +27,7 @@
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/atirekkumar/improved-octo-succotash/iissues"
+    "url": "https://github.com/atirekkumar/improved-octo-succotash/issues"
   },
   "publishConfig": {
     "access": "public"
