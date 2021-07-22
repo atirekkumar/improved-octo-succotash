@@ -29,9 +29,7 @@ interface HelloWorldCustomizeProps {
   headerText: string;
 }
 
-export type HelloWorldQueryFormData = QueryFormData &
-  HelloWorldStylesProps &
-  HelloWorldCustomizeProps;
+export type HelloWorldQueryFormData = QueryFormData & HelloWorldStylesProps & HelloWorldCustomizeProps;
 
 export type HelloWorldProps = HelloWorldStylesProps &
   HelloWorldCustomizeProps & {

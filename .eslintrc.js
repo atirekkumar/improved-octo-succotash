@@ -100,7 +100,7 @@ module.exports = {
         ],
         'import/no-named-as-default-member': 0,
         'import/prefer-default-export': 0,
-        indent: 0,
+        // indent: 0,
         'jsx-a11y/anchor-is-valid': 1,
         'jsx-a11y/click-events-have-key-events': 0, // re-enable up for discussion
         'jsx-a11y/mouse-events-have-key-events': 0, // re-enable up for discussion
@@ -201,7 +201,7 @@ module.exports = {
     ],
     'import/no-cycle': 0, // re-enable up for discussion, might require some major refactors
     'import/prefer-default-export': 0,
-    indent: 0,
+    // indent: 0,
     'jsx-a11y/anchor-is-valid': 1,
     'jsx-a11y/click-events-have-key-events': 0, // re-enable up for discussion
     'jsx-a11y/mouse-events-have-key-events': 0, // re-enable up for discussion
