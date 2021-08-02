@@ -131,6 +131,6 @@
   "dependencies": {
     "@superset-ui/chart-controls": "0.16.9",
     "@superset-ui/core": "0.16.7",
-    "@improved-octo-succotash/plugin-chart-hello-world":"1.0.7"
+    "@improved-octo-succotash/plugin-chart-hello-world":"1.0.8"
   }
 }
