@@ -16,12 +16,32 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-// eslint-disable-next-line import/prefer-default-export
-export { default as HelloWorldChartPlugin } from './plugin';
-/**
- * Note: this file exports the default export from HelloWorld.tsx.
- * If you want to export multiple visualization modules, you will need to
- * either add additional plugin folders (similar in structure to ./plugin)
- * OR export multiple instances of `ChartPlugin` extensions in ./plugin/index.ts
- * which in turn load exports from HelloWorld.tsx
- */
+import React, { FC } from 'react';
+import { Text } from 'recharts';
+
+type WaterfallTickProps = {
+  x: number;
+  y: number;
+  angle: number;
+  payload: {
+    value: number;
+  };
+  dy: number;
+};
+
+const WaterfallTick: FC<WaterfallTickProps> = ({ x, y, angle, payload, dy }) => (
+  <g transform={`translate(${x},${y})`}>
+    <Text
+      data-test-id={`tick-${payload.value}`}
+      angle={angle}
+      textAnchor="end"
+      verticalAnchor="middle"
+      width={100}
+      dy={dy}
+    >
+      {payload.value}
+    </Text>
+  </g>
+);
+
+export default WaterfallTick;

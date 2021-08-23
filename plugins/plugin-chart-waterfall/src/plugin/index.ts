@@ -16,13 +16,19 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-import { t, ChartMetadata, ChartPlugin } from '@superset-ui/core';
+import { ChartMetadata, ChartPlugin, t } from '@superset-ui/core';
 import buildQuery from './buildQuery';
 import controlPanel from './controlPanel';
 import transformProps from './transformProps';
 import thumbnail from '../images/thumbnail.png';
 
-export default class HelloWorldChartPlugin extends ChartPlugin {
+const metadata = new ChartMetadata({
+  description: 'Waterfall',
+  name: t('Waterfall'),
+  thumbnail,
+});
+
+export default class WaterfallChartPlugin extends ChartPlugin {
   /**
    * The constructor is used to pass relevant metadata and callbacks that get
    * registered in respective registries that are used throughout the library
@@ -34,16 +40,10 @@ export default class HelloWorldChartPlugin extends ChartPlugin {
    * (pivoting, rolling aggregations, sorting etc) or submitting multiple queries.
    */
   constructor() {
-    const metadata = new ChartMetadata({
-      description: 'Hello World',
-      name: t('Hello World'),
-      thumbnail,
-    });
-
     super({
       buildQuery,
       controlPanel,
-      loadChart: () => import('../HelloWorld'),
+      loadChart: () => import('../components/WaterfallChart'),
       metadata,
       transformProps,
     });
